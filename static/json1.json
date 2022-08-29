@@ -1,0 +1,84 @@
+
+{
+	"msg": "OK",
+	"code": 0,
+	"data": [{
+		"tcount": 196,
+		"rcount": 0,
+		"leftcount": 196,
+		"id": 578,
+		"title": "数组",
+		"totipList": [
+			{
+				"totip": "1 介绍JavaScript的基本数据类型",
+				"answer": "Number、String 、Boolean 、Null、Undefined"
+			},{
+				"totip": "2 说说写JavaScript的基本规范？",
+				"answer": "1) 不要在同一行声明多个变量"
+			},{
+				"totip": "3 jQuery使用建议",
+				"answer": "1) 尽量减少对dom元素的访问和操作"
+			},{
+				"totip": "4 Ajax使用",
+				"answer": "所谓异步，就是向服务器发送请求的时候，我们不必等待结果，而是可以同时做其他的事情，等到有了结果它自己会根据设定进行后续操作，与此同时，页面是不会发生整页刷新的，提高了用户体验."
+			},
+		]
+	}, {
+		"tcount": 72,
+		"rcount": 0,
+		"leftcount": 72,
+		"id": 579,
+		"title": "字符串",
+		"totipList": [
+			{
+				"totip": "1 获取异步调用返回的数据",
+				"answer": "1) 页面初次加载时，尽量在web服务器一次性输出所有相关的数据，只在页面加载完成之后，用户进行操作时采用ajax进行交互。"
+			},{
+				"totip": "2 JavaScript有几种类型的值？你能画一下他们的内存图吗？",
+				"answer": "基本数据类型存储在栈中，引用数据类型（对象）存储在堆中，指针放在栈中。"
+			},{
+				"totip": "3 栈和堆的区别？",
+				"answer": "栈（stack）：由编译器自动分配释放，存放函数的参数值，局部变量等；堆（heap）：一般由程序员分配释放，若程序员不释放，程序结束时可能由操作系统释放"
+			},{
+				"totip": "4 Javascript作用链域",
+				"answer": "作用域链的原理和原型链很类似，如果这个变量在自己的作用域中没有，那么它会寻找父级的，直到最顶层。"
+			},
+		]
+	}, {
+		"tcount": 193,
+		"rcount": 0,
+		"leftcount": 193,
+		"id": 580,
+		"title": "链表"
+	}, {
+		"tcount": 149,
+		"rcount": 0,
+		"leftcount": 149,
+		"id": 581,
+		"title": "栈"
+	}, {
+		"tcount": 80,
+		"rcount": 0,
+		"leftcount": 80,
+		"id": 582,
+		"title": "队列"
+	}, {
+		"tcount": 406,
+		"rcount": 0,
+		"leftcount": 406,
+		"id": 583,
+		"title": "树"
+	}, {
+		"tcount": 155,
+		"rcount": 0,
+		"leftcount": 155,
+		"id": 584,
+		"title": "图"
+	}, {
+		"tcount": 52,
+		"rcount": 0,
+		"leftcount": 52,
+		"id": 586,
+		"title": "堆"
+	}]
+}

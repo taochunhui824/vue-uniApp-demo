@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "面试题"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "component/totip/totip",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/subject/subject",
+			"style": {
+				"navigationBarTitleText": "刷题",
+				"enablePullDownRefresh": false,
+				// "navigationStyle": "custom",
+				"backgroundColor": "#f0f3f7",
+				"scrollIndicator": "none"
+			}
+
+		}
+	    ,{
+            "path" : "component/subject/subject",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "component/subject-item/subject-item",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "面试题",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+		// "navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "刷题"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "我的"
+		}]
+	}
+}
